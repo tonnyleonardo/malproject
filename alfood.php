@@ -129,7 +129,7 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                 sleep(5);
                 echo "\n";
                 echo "\e[96m[+] Proses Redeem Vocher : AYOCOBAGOJEK \n";
-                $data7 = '{"promo_code":"AYOCOBAGOJEK"}';
+                $data7 = '{"promo_code":"wadawgojek"}';
                 $claim4 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data7, $headers);
                 $claims4 = json_decode($claim4[0]);
                 if($claims4->success == true)
